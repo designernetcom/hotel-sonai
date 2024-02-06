@@ -1,0 +1,47 @@
+body {
+    font-family: serif;
+ font-size: 15px;
+ font-weight: normal;
+ color: #777;
+ font-style: normal;
+  line-height: 26px;
+}
+.navbar .logo img{
+    width: 150px;
+}
+.navbar .commn{
+    display: flex;
+    align-items: center;
+}
+.navbar .commn h4{
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 600;
+}
+.navbar .no b{
+    font-size: 24px;
+    font-family: serif;
+    font-weight: 600;
+}
+.navbar .no {
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 600;
+}
+.img-section {
+    margin: 40px 0px;
+}
+.imgclass img{
+    width: 100%;
+}
+.ab-text p{
+    text-align: justify;
+}
+@media screen and (max-width: 480px){
+    .ab-text h2{
+        margin-top: 20px;
+    }
+    .img-section .dimg{
+        margin-bottom: 20px;
+    }
+}
